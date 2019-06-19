@@ -1,38 +1,32 @@
-div#header
-{
+div#header {
     padding: 10px 20px 5px;
-    width: auto!important;
+    width: auto !important;
 }
 
-div
-{
+div {
     display: block;
 }
 
-@media screen and (max-width: 1700px)
-{
-	#logo {
-		margin: 0 0 27px 0;
-	}
+@media screen and (max-width: 1700px) {
+    #logo {
+        margin: 0 0 27px 0;
+    }
 }
 
-#logo
-{
+#logo {
     height: auto;
     vertical-align: middle;
-    transition: margin 0.25s,background-color 250ms;
+    transition: margin 0.25s, background-color 250ms;
     background-color: #fb4f14;
 }
 
-body
-{
-	font-family: Arial;
+body {
+    font-family: Arial;
     font-size: 16px;
     word-wrap: break-word;
 }
 
-header
-{
+header {
     z-index: 9002;
     display: block;
     width: 100%;
@@ -41,141 +35,128 @@ header
     top: 0;
     height: 80px;
     overflow: hidden;
-	border-bottom: 3px #f4f4f4 solid;
+    border-bottom: 3px #f4f4f4 solid;
 }
 
-.row
-{
+.row {
     margin-right: -15px;
     margin-left: -15px;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-@media (max-width: 991px) and (min-width: 768px)
-{
-	.date-section {
-		padding-bottom: 5px;
-		padding-top: 5px;
-	}
+@media (max-width: 991px) and (min-width: 768px) {
+    .date-section {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
 }
 
-.maxWidth
-{
+.maxWidth {
     width: 100%;
 }
 
-input[type=button]
-{
-	margin-bottom: 20px;
-	padding: 10px;
-	border-radius:5px;
-	border:1px solid gray;
-	background-color: georgian;
-	color: black;
-	font-size:15px;
-	cursor:pointer;
-	opacity: 1;
+input[type=button] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: georgian;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    opacity: 1;
 }
 
-#calcdate:hover
-{
-	background-color: gray;
-	color: white;
-	opacity: 1;
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+#calcdate:hover {
+    background-color: gray;
+    color: white;
+    opacity: 1;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-input[type=date]
-{
-	margin-top: 10px;
-	padding: 8px;
+input[type=date] {
+    margin-top: 10px;
+    padding: 8px;
     display: block;
     border: none;
     border-bottom: 1px solid #ccc;
 }
 
-input[type=text]
-{
-	margin-top: 10px;
-	padding: 8px;
+input[type=text] {
+    margin-top: 10px;
+    padding: 8px;
     display: block;
     border: none;
     border-bottom: 1px solid #ccc;
 }
 
-@media only screen and (max-width: 600px)
-{
-    input[type=date]
-	{
-		width: 100%;
-	}
-	input[type=text]
-	{
-		width: 100%;
-	}
-	input[type=button]
-	{
-		width: 100%;
-	}
+@media only screen and (max-width: 600px) {
+    input[type=date] {
+        width: 100%;
+    }
+
+    input[type=text] {
+        width: 100%;
+    }
+
+    input[type=button] {
+        width: 100%;
+    }
 }
 
-.sections
-{
-	position: relative;
-	min-height: 1px;
-	padding-right: 15px;
-	padding-left: 15px;
+.sections {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-.main-sub-section
-{
-	background-color: #79C000;
-	color: #406FBF;
-	padding: 15px 15px 20px 15px;
-	border-radius: 4px;
-	margin-bottom: 15px;
-	margin-top: 15px;
-	text-align: center;
+.main-sub-section {
+    background-color: #79C000;
+    color: #406FBF;
+    padding: 15px 15px 20px 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
 }
 
-.sub-section
-{
-	background: #ADCB00;
-	padding: 15px 30px 20px 30px;
-	border-radius: 4px;
-	margin-bottom: 15px;
+.sub-section {
+    background: #ADCB00;
+    padding: 15px 30px 20px 30px;
+    border-radius: 4px;
+    margin-bottom: 15px;
 }
 
-.title
-{
-	margin: 0 0 15px 0;
-	font-weight: bold;
-	font-size: 28px;
-	color: #576872;
+.title {
+    margin: 0 0 15px 0;
+    font-weight: bold;
+    font-size: 28px;
+    color: #576872;
 }
 
-.padding
-{
-	padding: 0 5px 0 5px;
+.padding {
+    padding: 0 5px 0 5px;
 }
 
-h3
-{
-	color: #FFFFFF; margin: 5px 0; font-weight: bold; font-size: 24px;
+h3 {
+    color: #FFFFFF;
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 24px;
 }
 
-.margin-and-padding
-{
-	margin: 5px 0;  padding: 10px;
+.margin-and-padding {
+    margin: 5px 0;
+    padding: 10px;
 }
 
-footer
-{
-	background-color: #79C000;
-  color: white;
-	padding: 15px 15px 20px 15px;
-	border-radius: 4px;
-	margin-bottom: 15px;
-	margin-top: 15px;
-	text-align: center;
+footer {
+    background-color: #79C000;
+    color: white;
+    padding: 15px 15px 20px 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
 }
